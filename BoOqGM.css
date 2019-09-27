@@ -1,0 +1,53 @@
+body {
+	background: #CB0000;
+	display: flex;
+	height: 100vh;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+
+}
+h1,
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+p a {
+  text-decoration: none;
+  color: #f1c40f;
+}
+
+#squarefree {
+  font-family: Helvetica;
+  margin: 0 auto;
+  background: blue;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15pt;
+  color: white;
+}
+
+#bingotable {
+  margin: 0 auto;
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  border-collapse: collapse;
+  background: white;
+}
+th,
+td {
+  font-family: Helvetica;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+  width: 20%;
+}
+.blue {
+  background: blue;
+}
