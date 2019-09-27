@@ -16,7 +16,6 @@ function setSquare(thisSquare) {
 	
 	// prevent duplicate numbers?
 	do {
-//		newNum =(colPlace[thisSquare] * 15) + getNewNum() + 1;
 		newNum =getNewNum();
 	}
 	while (usedNums[newNum]);
@@ -25,21 +24,12 @@ function setSquare(thisSquare) {
 	document.getElementById(currSquare).innerHTML = terms[newNum];
 }
 
-//function getTerm(){
-//	return 
-//}
-
 function getNewNum(){
 	console.log("terms length: " + terms.length);
 	var ranNum = Math.floor(Math.random() * terms.length);
-//	console.log("Random number chosen: " + ranNum);
-//	console.log("Term Chosen: " + terms[ranNum]);
 	return ranNum;
 }
-//
-//function getNewNum() {
-//	return Math.floor(Math.random() * 75);
-//}
+
 
 function anotherCard() {
 	for(var i=1; i<usedNums.length; i++) {
